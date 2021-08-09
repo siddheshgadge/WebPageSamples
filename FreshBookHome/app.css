@@ -1,0 +1,169 @@
+/*Main CSS*/
+
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	margin: 0;
+	background-color: #2786f2;
+	
+}
+
+.container{
+	margin: 15px 18%;
+	background-color: #2786f2;
+}
+
+nav{
+	padding: 15px 25px;
+	display: flex;
+	align-items: baseline;
+}
+
+.nav-head{
+	align-items: flex-start;
+	font-size: 2em;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: all 200ms ease-in-out;
+}
+
+.nav-head:hover, .nav-head:focus{
+	transform: translateY(2px);
+}
+
+.nav-features,.nav-features-items{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: 700;
+	list-style-type: none;
+}
+
+.nav-features{
+	flex: 1;
+	max-width: 80%;
+	display: flex;
+	justify-content: safe flex-end;
+	align-items: baseline;
+	font-size: 0.8em;
+}
+
+.nav-features-items{
+	padding-right:15px;
+	text-decoration: none;
+}
+
+.nav-features-items:hover, .nav-features-items:focus{
+	text-decoration: underline;
+}
+
+.signup-btn .nav-features-items{
+	padding-right: 0;
+}
+
+.signup-btn{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px;
+	transition: all 250ms ease-in-out;
+}
+
+.signup-btn:hover, .signup-btn:focus{
+	background-color: white;
+	color: #2786f2;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.main-content{
+	width: 80%;
+	margin: 0 10%;
+	padding: 10px 15px;
+	text-align: center;	
+	color: white;
+	line-height: 1.5;
+}
+
+.main-content h1{
+	letter-spacing: 1px;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+.inputs{
+	margin: 0 70px;
+	display: flex;
+	justify-content: center;
+	max-width: 80%;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.inputs input{
+	font-size: 1.2em;
+	height: 40px;
+	border: none;
+	border-radius: 2px;
+	margin: 10px 3px 5px 3px;
+	padding: 3px;
+}
+
+.inputs input::placeholder{
+	padding-left: 10px;
+}
+
+.inputs input:focus{
+	outline: none;
+}
+
+.try-btn{
+	border: 1px solid #81B114;
+	border-radius: 2px;
+	flex-grow: 0.86;
+	padding: 10px;
+	font-size: 1em;
+	text-decoration: none;
+	color: white;
+	background-color: #81B114;
+	transition: all 300ms ease-in-out;
+	margin-bottom: 4px;
+}
+
+.try-btn:hover, try-btn:focus{
+	background-color: #75bf2c;
+}
+
+.main-content p{
+	font-size: 1em;
+	color: #98DDCA;
+	line-height: 22px;
+	margin: 0;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-width: 80%;
+	display: flex;
+	justify-content: space-around;
+	color: whitesmoke;
+	padding: 50px 135px 35px;
+	background-color: #ffffff09;
+	;
+}
+
+.footer-feature{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-feature-text{
+	padding-top: 4px;
+}
